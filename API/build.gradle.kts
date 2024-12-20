@@ -9,11 +9,11 @@ repositories {
 }
 
 dependencies {
-    api("javax.annotation:javax.annotation-api:1.3.2")
-    compileOnly("net.kyori:adventure-platform-bungeecord:4.1.2")
-    compileOnly("com.google.guava:guava:30.0-jre")
+    api("jakarta.annotation:jakarta.annotation-api:3.0.0")
+    compileOnly("net.kyori:adventure-platform-bungeecord:4.3.4")
+    compileOnly("com.google.guava:guava:3.33.1-jre")
 
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
+    testImplementation(platform("org.junit:junit-bom:5.11.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
